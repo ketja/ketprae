@@ -45,7 +45,7 @@ abstract class Hotel {
         this.m = m;
         this.total = this.m*this.sum;
         this.turn = this.m*this.gM;
-        System.out.println(this.turn);
+        
         int j ,h ;
         System.out.println("**************Bill****************");
         System.out.println("Price :            " + this.total );

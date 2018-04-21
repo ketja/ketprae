@@ -7,7 +7,6 @@ public class happyhotel {
        System.out.println("*******WELCOM TO HOTEL*********");
        Hotel1 a =new Hotel1() {};
        a.choose();
-      want h =new want() {};
-      h.print();
+      
     }
 }

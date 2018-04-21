@@ -29,14 +29,14 @@ class CheckIn extends Hotel {
         System.out.println("2 : Double bad    1,000  Bath ");
         System.out.println("3 : Recognizance    500  Bath");
         System.out.println(">>> Free wifi");
-        d.print();
+        //d.print();
     }
     public void checkmonth(){
         System.out.println("1 : Single bad   12,000    Bath ");
         System.out.println("2 : Double bad   16,000    Bath ");
         System.out.println("3 : Recognizance  1,000    Bath ");
         
-        m.print();
+        //m.print();
     }
    
 }

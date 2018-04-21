@@ -10,7 +10,7 @@ class daily extends Hotel {
         System.out.println("-------------daily--------------");
         CheckIn n =new CheckIn();
        
-        while(c!=1 && c!=2 && c!=3){
+        while(c!=1 && c!=2 ){
            
         System.out.println("Press 1 : single bad");
         System.out.println("Press 2 : Double bad");
@@ -20,8 +20,18 @@ class daily extends Hotel {
         c=a.nextInt();
         if(c==1){
             super.sum = super.sD+super.gD ;
+            Scanner sc=new Scanner(System.in);
+        System.out.print("How many rooms >>>");
+        m=sc.nextInt();
+        
+        super.billDaily(m);
         }else if(c==2){
             super.sum=super.dD+super.gD ;
+            Scanner sc=new Scanner(System.in);
+        System.out.print("How many rooms >>>");
+        m=sc.nextInt();
+        
+        super.billDaily(m);
            
         }else if (c==3){
         
@@ -29,11 +39,7 @@ class daily extends Hotel {
         }
         }
         
-        Scanner sc=new Scanner(System.in);
-        System.out.print("How many rooms >>>");
-        m=sc.nextInt();
         
-        super.billDaily(m);
         
     }
      

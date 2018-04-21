@@ -27,6 +27,29 @@ abstract class Hotel {
         this.m = m;
         this.total = this.m*this.sum;
         this.turn = this.m*this.gD;
+        int j=0 ,h=0 ;
+        System.out.println("***************Bill***************");
+        System.out.println("Price :            " + this.total );
+        Scanner a =new Scanner(System.in);
+        System.out.print("Received :         ");
+         h =a.nextInt();
+         
+        
+         j=h-this.total ;
+        System.out.println("Change :           " + (j+this.turn));
+        System.out.println("Call : 061-2044434");
+        System.out.println("Wifi : ketmaneenichakorn");
+        want n =new want(){};
+        n.print();
+        
+         
+        
+    }
+    
+    public void billMonthly(int m){
+        this.m = m;
+        this.total = this.m*this.sum;
+        this.turn = this.m*this.gM;
         int j ,h ;
         System.out.println("***************Bill***************");
         System.out.println("Price :            " + this.total );
@@ -37,26 +60,8 @@ abstract class Hotel {
         System.out.println("Change :           " + (j+this.turn));
         System.out.println("Call : 061-2044434");
         System.out.println("Wifi : ketmaneenichakorn");
-        
-        
-    }
-    
-    public void billMonthly(int m){
-        this.m = m;
-        this.total = this.m*this.sum;
-        this.turn = this.m*this.gM;
-        
-        int j ,h ;
-        System.out.println("**************Bill****************");
-        System.out.println("Price :            " + this.total );
-        Scanner a =new Scanner(System.in);
-        System.out.print("Received :         ");
-         h =a.nextInt();
-         j=h-this.total ;
-        System.out.println("Change :           " + (j+this.turn));
-        System.out.println("Call : 061-2044434");
-        System.out.println("Wifi : ketmaneenichakorn");
-        
+        want n =new want(){};
+        n.print();
     }
     
     public int calwater(int water){

@@ -39,8 +39,7 @@ abstract class Hotel {
         System.out.println("Change :           " + (j+this.turn));
         System.out.println("Call : 061-2044434");
         System.out.println("Wifi : ketmaneenichakorn");
-        want n =new want(){};
-        n.print();
+        
         
          
         
@@ -60,8 +59,7 @@ abstract class Hotel {
         System.out.println("Change :           " + (j+this.turn));
         System.out.println("Call : 061-2044434");
         System.out.println("Wifi : ketmaneenichakorn");
-        want n =new want(){};
-        n.print();
+        
     }
     
     public int calwater(int water){
